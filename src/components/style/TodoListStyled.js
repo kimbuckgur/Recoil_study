@@ -33,17 +33,38 @@ export const PlusButton = styled.button`
 
 export const UnNumberList = styled.ul`
   margin-top: 25px;
-  margin-left:10px;
+  margin-left: 10px;
 `;
 
 export const listElement = styled.li`
-  display:flex;
-`
+  display: flex;
+`;
 
 export const DeleteButton = styled.button`
-  width:60px;
-  height:30px;
-  margin-left:20px;
-`
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+`;
 
+export const UpdateButton = styled.button`
+  width: 60px;
+  height: 30px;
+  margin-left: 5px;
+`;
 
+export const UpdateInput = styled.input`
+  width: 120px;
+  margin-left: 5px;
+`;
+
+export const UpdateCheck = styled.button`
+  width: 60px;
+  height: 30px;
+  margin-left: 5px;
+`;
+
+export const UpdateBack = styled.button`
+  width: 60px;
+  height: 30px;
+  margin-left: 5px;
+`;
